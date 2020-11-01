@@ -5,9 +5,26 @@
     font-family: 'Quicksand', sans-serif;
     box-sizing: border-box;
 }
-main {
+body {
+    padding-bottom: 30px;
+}
+.main-form {
     width: 100%;
+    position: relative;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+button {
+    width: 275px;
+    height: 75px;
+    display: block;
+    margin: 37px auto;
+    background-color: rgb(86, 97, 160);
+    color: #ffffff;
+    font-size: 20px;
+}
+button:hover {
+    background-color: rgb(75, 87, 158);
+    outline: none;
 }
