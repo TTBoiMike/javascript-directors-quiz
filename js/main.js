@@ -30,3 +30,12 @@ form.addEventListener("submit", e  => {
     result.innerHTML = score;
 })
 
+
+// show director help function
+function showDirector(qmark, directorTag) {
+    directorTag.style.display = "block";
+    setTimeout(function() {
+        directorTag.style.display = "none";
+        qmark.style.display = "none";
+    }, 2000)
+}

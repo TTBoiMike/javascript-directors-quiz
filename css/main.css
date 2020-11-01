@@ -7,7 +7,7 @@ header {
 }
 header h1 {
     margin-bottom: 10px;
-    font-size: 40px;
+    font-size: 30px;
 }
 header h3 {
     font-size: 16px;
@@ -16,7 +16,7 @@ header h3 {
 .question-container {
     width: 100%;
     margin: 30px;
-    margin-bottom: 37px;
+    position: relative;
     max-width: 450px;
     border: 1px solid rgba(0,0,0,0.2);
     border-radius: 20px;
@@ -26,6 +26,7 @@ header h3 {
 .question-header {
     width: 100%;
     height: 275px;
+    position: relative;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -56,9 +57,24 @@ header h3 {
 .user-score-container {
     text-align: center;
 }
-
-
-
+.director-tag {
+    display: none;
+    padding: 10px;
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    border-radius: 10px;
+    background-color: #000;
+    width: fit-content;
+    color: #fff;
+}
+.question-options svg {
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
 
 
 /* question-header images */
