@@ -79,20 +79,20 @@ header h3 {
 
 /* question-header images */
 .director-header-one {
-    background-image: url("/images/director-first-question.jpg");
+    background-image: url("images/director-first-question.jpg");
 } 
 .director-header-two {
-    background-image: url("/images/director-seconds-question.jpg");
+    background-image: url("images/director-seconds-question.jpg");
 } 
 .director-header-three {
-    background-image: url("/images/director-third-question.jpg");
+    background-image: url("images/director-third-question.jpg");
 }
 .director-header-four {
-    background-image: url("/images/director-fourth-question.jpg");
+    background-image: url("images/director-fourth-question.jpg");
 }
 .director-header-five {
-    background-image: url("/images/director-fifth-question.jpg");
+    background-image: url("images/director-fifth-question.jpg");
 }
 .director-header-six {
-    background-image: url("/images/director-sixth-question.jpg");
+    background-image: url("images/director-sixth-question.jpg");
 }

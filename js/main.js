@@ -1,9 +1,6 @@
 let form = document.querySelector("form"); 
 let correctAnswers = ["fightclub", "thematrix", "starwars", "scarface", "planetoftheapes", "jarhead"];
 
-
-
-
 form.addEventListener("submit", e  => {
     // create score variable to track score
     let score = 0;
@@ -29,7 +26,6 @@ form.addEventListener("submit", e  => {
     let result = document.querySelector(".user-score");
     result.innerHTML = score;
 })
-
 
 // show director help function
 function showDirector(qmark, directorTag) {
