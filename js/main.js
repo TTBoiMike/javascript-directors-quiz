@@ -19,7 +19,7 @@ form.addEventListener("submit", e  => {
             score += 1;
         }
     });
-    // return a final score
+    // log final score
     console.log(score)
 
     // display score on screen
@@ -35,3 +35,7 @@ function showDirector(qmark, directorTag) {
         qmark.style.display = "none";
     }, 2000)
 }
+
+
+
+// add function to highlight which question was wrong
