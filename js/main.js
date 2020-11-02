@@ -1,5 +1,6 @@
 let form = document.querySelector("form"); 
 let correctAnswers = ["fightclub", "thematrix", "starwars", "scarface", "planetoftheapes", "jarhead"];
+let containers = document.querySelectorAll(".question-container");
 
 form.addEventListener("submit", e  => {
     // create score variable to track score
@@ -16,7 +17,10 @@ form.addEventListener("submit", e  => {
     // compare user inputs with correctAnswers array
     userAnswers.forEach((answer, index) => {
         if(answer === correctAnswers[index]) {
+            containers[index].style.border = "10px solid green"
             score += 1;
+        } else {
+            containers[index].style.border = "10px solid red"
         }
     });
     // log final score
